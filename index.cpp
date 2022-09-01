@@ -23,7 +23,9 @@ Questions
 
 10. write a function that takes an integer as input and return (or prints) its correspnding roman numeral. (e.g. input: 16; output: XVI).
 
-11. write a function that reverses a string. (e.g. input: 'fgbcapo'; output: 'opacbgf' )
+11. write a function that accepts a string as input and returns (or prints) the reversed string. (e.g. input: 'fgbcapo'; output: 'opacbgf' ).
+
+12. Explain the running time of each function you write using big O notation.
 
 */
 
