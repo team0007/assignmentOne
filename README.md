@@ -75,11 +75,12 @@ void printArray(int myArray[], int arraySize){
 }
 
 //question 2
-bool searchArray(int myrray[], int n=4){
-    for (int i=0; i<n; i++){
-        //if ( myArray[i] is minimum)
+bool searchMyArray(int myArray[], int arraySize, int myInput){
+    for(int i=0; i<arraySize; i++){
+        if (myArray[i] == myInput){
             return true;
-
+        }
     }
+    return false;
 }
 ```
