@@ -1,13 +1,19 @@
 # Assignment One
 You are responsible for answering every question individually. 
-Questions
+### Questions
 1. write a function that accepts an input and then searches myArray for this input. The function should return true if found and false other wise
 
 2. write a function that accepts myArray and n as inputs then returns (or prints) the minimum value among the first n elements of myArray.
 
 3. write a function that returns (or prints) both the maximum and minimum values of myArray. use reference parameters.
+```cpp 
+void getArrayMaxMin(float& min, float& max, float myArray[], int arraySize)
+ ```
 
 4. write a function that returns (or prints) both the largest and second largest values in myArray. use reference parameters. Note: largest and second largest can equal (e.g. a[5] = {3,1,2,3,2}).
+```cpp
+void twoLargest(float& maxOne, float& maxTwo, float myArray[], int arraySize)
+```
 
 5. write a function that returns (or prints) the standard deviation of a data set 
 
@@ -24,8 +30,7 @@ Questions
 11. write a function that accepts a string as input and returns (or prints) the reversed string. (e.g. input: 'fgbcapo'; output: 'opacbgf' ).
 
 12. Explain the running time of each function you write using big O notation.
-
-Example
+### Example
 
 1. write a function that accepts myArray and arraySize as input and then prints all the element of myArray.
 
