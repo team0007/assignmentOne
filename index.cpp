@@ -35,18 +35,35 @@ Example
 */
 
 void printArray(int [], int);
+bool searchMyArray(int [], int, int);
 
 int main(){
     int myArray[6] = {11,34,7,8,-2,0};
     int arraySize = 6;
+    int myInput = 0;
+    bool result;
 
-    printArray(myArray, arraySize);
-
+    //printArray(myArray, arraySize);
+    //cout << "enter number"<< endl;
+    //cin >> myInput;
+    result = searchMyArray(myArray, arraySize, myInput);
+    cout << "result = "<<result;
     return 0;
 }
 
+//question1 
 void printArray(int myArray[], int arraySize){
     for (int i=0; i<arraySize; i++){
-        cout << myArray[i] << ",";
+        cout << myArray[i] << "," <<endl;
     }
+    //O(arraySize)
+}
+//question 2
+bool searchMyArray(int myArray[], int arraySize, int myInput){
+    for(int i=0; i<arraySize; i++){
+        if (myArray[i] == myInput){
+            return true;
+        }
+    }
+    return false;
 }
